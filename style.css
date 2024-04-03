@@ -175,6 +175,36 @@ nav {
     top: 10rem;
     mix-blend-mode: luminosity;
 }
+@media screen and (max-width:1280px) {
+    .about .image img{
+        width: 300px;
+        height: 400px;
+        top: 12rem;
+    }
+}
+@media screen and (max-width:1088px) {
+    .about .image img{
+        width: 200px;
+        height: 300px;
+        top: 15rem;
+    }
+}
+@media screen and (max-width:782px) {
+    .social-links{
+        padding: 0 0.5rem;
+    }
+}
+@media screen and (max-width:864px) {
+    .about .image img{
+        display: none;
+    }
+    .about .inf{
+        margin-left: -10rem;
+    }
+    .home{
+        margin-left: -15rem;
+    }
+}
 .about .image img:hover{
     animation: prof-animation 8s ease-in-out infinite;
     mix-blend-mode: normal;
